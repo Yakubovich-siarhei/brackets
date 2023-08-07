@@ -1,3 +1,7 @@
 module.exports = function check(str, bracketsConfig) {
-  return true;
+  if (str.length % 2 !== 0) {
+    return false;
+  } else {
+    return true;
+  }
 };
